@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Guillermo Argerich | Abogado</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<script src="translations.js"></script>
+<script src="script.js"></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-charcoal dark:text-gray-100 font-display">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Header -->
+<header class="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 dark:bg-navy/95 dark:border-navy shadow-sm">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
+<!-- Logo -->
+<div class="flex items-center gap-3">
+<div class="bg-navy text-white p-1.5 rounded-sm">
+<span class="material-symbols-outlined !text-[20px]">balance</span>
+</div>
+<h1 class="text-navy dark:text-white font-serif text-xl font-bold tracking-tight">
+                        Guillermo Argerich <span class="text-gold">&amp;</span> Abogados
+                    </h1>
+</div>
+<!-- Navigation Desktop -->
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-sm font-bold text-primary dark:text-white transition-colors" href="equipo.html" data-i18n="nav.team">Equipo</a>
+<a class="text-sm font-medium text-charcoal hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors" href="servicios.html" data-i18n="nav.areas">Áreas de Práctica</a>
+<a class="text-sm font-medium text-charcoal hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors" href="publicaciones.html" data-i18n="nav.publications">Publicaciones</a>
+<a class="text-sm font-medium text-charcoal hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors" href="#" data-i18n="nav.contact">Contacto</a>
+</nav>
+<!-- Actions -->
+<div class="flex items-center gap-6">
+<button id="lang-toggle" class="text-xs font-bold text-gray-500 hover:text-primary border border-gray-200 px-3 py-1 rounded-full transition-colors tracking-widest">
+                        ES <span class="text-gray-300">|</span> EN
+                    </button>
+<button id="btn-agenda-header" class="hidden sm:flex bg-primary hover:bg-primary-dark text-white text-sm font-bold h-10 px-6 rounded-md items-center justify-center transition-all shadow-lg shadow-primary/20" data-i18n="nav.book">
+                        Agendar Consulta
+                    </button>
+<!-- Mobile Menu Icon -->
+<button class="lg:hidden text-navy dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative w-full h-[600px] lg:h-[700px] flex items-center justify-center overflow-hidden">
+<!-- Background Image -->
+<div class="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" data-alt="Distinguished senior lawyer sitting at a mahogany desk in a classic library office in Buenos Aires, soft natural light" style='background-image: linear-gradient(rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDglwznoZlqpEhmzMNrI6LTqUfNJYWR8JQrV0n_APrcdjK0frvoHE-978ta4pYUno285AhtlcGofaG9OlKdMwEpoy0LIXTp0ZhN1T-GPXf1jEIR8x5WFWOaoxEvdSPb-WtVzv1T64KqYGD_jEmWn-GJMjiKQg6RWiUrxvUk198FGe4d3w_zU_7Q7yojwTLF5KBHp7rLpbvKhx_N6hJJUzix1Z5KKvvmY2HYK0qOoY1rQ0A515jg_vErodgzCbzV7xDu8pSRD47iNPU");'></div>
+<!-- Content -->
+<div class="relative z-10 max-w-[1280px] w-full px-6 lg:px-10 flex flex-col items-center text-center lg:items-start lg:text-left gap-6 mt-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/20 border border-gold/40 backdrop-blur-md mb-2">
+<span class="w-2 h-2 rounded-full bg-gold"></span>
+<span class="text-xs font-semibold uppercase tracking-wider text-gold text-shadow">Excelencia Legal desde 1986</span>
+</div>
+<span class="text-gold font-bold tracking-widest text-sm uppercase mb-4" data-i18n="hero.subtitle">DERECHO INTERNACIONAL PRIVADO & CORPORATIVO</span>
+<h1 class="text-white font-serif text-5xl lg:text-7xl font-bold leading-tight tracking-tight max-w-4xl text-shadow">
+                    Experiencia Global.<br/>
+<span class="text-primary-300 italic">Perspectiva Argentina.</span>
+</h1>
+                <p class="text-gray-100 text-lg lg:text-xl font-light leading-relaxed max-w-2xl text-shadow" data-i18n="hero.description">
+                    Asesoramiento jurídico internacional de alta complejidad para empresas y particulares. 
+                    Tradición y vanguardia en el corazón de Buenos Aires.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 mt-4 w-full sm:w-auto">
+<a class="bg-primary hover:bg-primary-dark text-white text-base font-bold h-12 px-8 rounded-md flex items-center justify-center transition-all shadow-lg shadow-primary/30 w-full sm:w-auto" href="servicios.html" data-i18n="hero.cta1">
+                        Nuestras Áreas
+                        <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+<button id="btn-agenda-hero" class="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white text-base font-semibold h-12 px-8 rounded-md flex items-center justify-center transition-all w-full sm:w-auto" data-i18n="hero.cta2">
+                        Contactar
+                    </button>
+</div>
+</div>
+</section>
+<!-- Trust Signals Bar -->
+<div class="w-full bg-white dark:bg-navy border-b border-gray-200 dark:border-gray-800">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-10 py-10">
+<div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-20">
+<!-- Key Stat -->
+<div class="flex items-center gap-4 min-w-fit">
+<span class="text-6xl font-serif font-bold text-navy dark:text-white">40<span class="text-gold text-4xl align-top">+</span></span>
+<div class="flex flex-col border-l-2 border-primary pl-4">
+<span class="text-sm font-bold uppercase tracking-wider text-charcoal dark:text-gray-300" data-i18n="trust.years">Años de</span>
+<span class="text-sm font-bold uppercase tracking-wider text-charcoal dark:text-gray-300" data-i18n="trust.trajectory">Trayectoria</span>
+</div>
+</div>
+<!-- Divider -->
+<div class="hidden lg:block h-12 w-px bg-gray-200 dark:bg-gray-700"></div>
+<!-- Logos / Associations -->
+                    <!-- Trusted Signal 1 -->
+                    <div class="flex items-center gap-3">
+                        <div class="bg-gray-100 dark:bg-gray-800 p-2 rounded-full text-navy dark:text-white">
+                            <span class="material-symbols-outlined text-xl">public</span>
+                        </div>
+                        <div>
+                            <span class="block text-sm font-bold text-navy dark:text-white leading-tight" data-i18n="trust.global">Alcance Global</span>
+                            <span class="text-xs text-gray-500" data-i18n="trust.jurisdictions">Múltiples Jurisdicciones</span>
+                        </div>
+                    </div>
+
+                    <!-- Trusted Signal 2 -->
+                    <div class="flex items-center gap-3">
+                        <div class="bg-gray-100 dark:bg-gray-800 p-2 rounded-full text-navy dark:text-white">
+                            <span class="material-symbols-outlined text-xl">school</span>
+                        </div>
+                        <div>
+                            <span class="block text-sm font-bold text-navy dark:text-white leading-tight" data-i18n="trust.academic">Excelencia Académica</span>
+                            <span class="text-xs text-gray-500" data-i18n="trust.formation">Formación UBA & Internacional</span>
+                        </div>
+                    </div>
+
+                    <!-- Trusted Signal 3 -->
+                    <div class="flex items-center gap-3">
+                         <div class="bg-gray-100 dark:bg-gray-800 p-2 rounded-full text-navy dark:text-white">
+                            <span class="material-symbols-outlined text-xl">shield</span>
+                         </div>
+                         <div>
+                            <span class="block text-sm font-bold text-navy dark:text-white leading-tight" data-i18n="trust.confidentiality">Confidencialidad & Ética</span>
+                            <span class="text-xs text-gray-500" data-i18n="trust.discretion">Discreción y Rigor Profesional</span>
+                         </div>
+                    </div>
+</div>
+</div>
+</div>
+<!-- Services Section -->
+<section class="py-20 lg:py-24 bg-background-light dark:bg-background-dark">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-10">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-16">
+<div class="flex flex-col gap-4 max-w-2xl">
+<span class="text-primary font-bold tracking-widest text-sm uppercase" data-i18n="services.subtitle">Nuestra Expertise</span>
+<h2 class="text-navy dark:text-white font-serif text-4xl lg:text-5xl font-bold leading-tight" data-i18n="services.title">
+                            Soluciones legales complejas con visión estratégica.
+                        </h2>
+</div>
+<a class="hidden md:flex items-center gap-2 text-primary font-bold hover:text-primary-dark transition-colors border-b-2 border-transparent hover:border-primary pb-1" href="servicios.html" data-i18n="services.view_all">
+                        Ver todos los servicios
+                        <span class="material-symbols-outlined text-lg">arrow_forward</span>
+</a>
+</div>
+<!-- SERVICES GRID START -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <!-- Card 1: Arbitraje Internacional -->
+    <div class="group bg-white dark:bg-[#15202b] p-6 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-5 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+            <span class="material-symbols-outlined text-[24px]">gavel</span>
+        </div>
+        <h3 class="text-lg font-serif font-bold text-navy dark:text-white mb-3" data-i18n="services.card1.title">Arbitraje Internacional</h3>
+        <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed" data-i18n="services.card1.desc">
+            Resolución de disputas transfronterizas complejas y litigios comerciales ante tribunales internacionales.
+        </p>
+        <div class="mt-5 pt-5 border-t border-gray-100 dark:border-gray-800">
+            <span class="text-sm font-bold text-navy dark:text-white group-hover:text-primary transition-colors flex items-center gap-2" data-i18n="services.more_info">
+                Más información <span class="material-symbols-outlined text-base">chevron_right</span>
+            </span>
+        </div>
+    </div>
+
+    <!-- Card 2: Contratos Internacionales -->
+    <div class="group bg-white dark:bg-[#15202b] p-6 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-5 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+            <span class="material-symbols-outlined text-[24px]">description</span>
+        </div>
+        <h3 class="text-lg font-serif font-bold text-navy dark:text-white mb-3" data-i18n="services.card2.title">Contratos Internacionales</h3>
+        <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed" data-i18n="services.card2.desc">
+            Redacción y negociación de acuerdos globales, minimizando riesgos legales y asegurando el cumplimiento normativo.
+        </p>
+        <div class="mt-5 pt-5 border-t border-gray-100 dark:border-gray-800">
+            <span class="text-sm font-bold text-navy dark:text-white group-hover:text-primary transition-colors flex items-center gap-2" data-i18n="services.more_info">
+                Más información <span class="material-symbols-outlined text-base">chevron_right</span>
+            </span>
+        </div>
+    </div>
+
+    <!-- Card 3: Derecho del Comercio Internacional -->
+    <div class="group bg-white dark:bg-[#15202b] p-6 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-5 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+            <span class="material-symbols-outlined text-[24px]">public</span>
+        </div>
+        <h3 class="text-lg font-serif font-bold text-navy dark:text-white mb-3" data-i18n="services.card3.title">Derecho del Comercio Internacional</h3>
+        <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed" data-i18n="services.card3.desc">
+            Asesoramiento en normativas globales, tratados bilaterales, incoterms y regulaciones aduaneras complejas.
+        </p>
+        <div class="mt-5 pt-5 border-t border-gray-100 dark:border-gray-800">
+            <span class="text-sm font-bold text-navy dark:text-white group-hover:text-primary transition-colors flex items-center gap-2" data-i18n="services.more_info">
+                Más información <span class="material-symbols-outlined text-base">chevron_right</span>
+            </span>
+        </div>
+    </div>
+
+    <!-- Card 4: Derecho de Familia Internacional -->
+    <div class="group bg-white dark:bg-[#15202b] p-6 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-5 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+            <span class="material-symbols-outlined text-[24px]">family_restroom</span>
+        </div>
+        <h3 class="text-lg font-serif font-bold text-navy dark:text-white mb-3" data-i18n="services.card4.title">Derecho de Familia Internacional</h3>
+        <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed" data-i18n="services.card4.desc">
+            Gestión experta de sucesiones, divorcios, custodias y adopciones con elementos jurídicos transfronterizos.
+        </p>
+        <div class="mt-5 pt-5 border-t border-gray-100 dark:border-gray-800">
+            <span class="text-sm font-bold text-navy dark:text-white group-hover:text-primary transition-colors flex items-center gap-2" data-i18n="services.more_info">
+                Más información <span class="material-symbols-outlined text-base">chevron_right</span>
+            </span>
+        </div>
+    </div>
+</div>
+<div class="mt-10 flex justify-center md:hidden">
+<a class="flex items-center gap-2 text-primary font-bold hover:text-primary-dark transition-colors border-b-2 border-transparent hover:border-primary pb-1" href="servicios.html">
+                        Ver todos los servicios
+                        <span class="material-symbols-outlined text-lg">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Brief About / Quote Section -->
+<section class="relative bg-navy py-20 overflow-hidden">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-10 relative z-10">
+<div class="bg-white/5 border border-white/10 rounded-xl p-8 lg:p-12 relative overflow-hidden backdrop-blur-sm shadow-xl">
+<div class="absolute top-0 right-0 -mt-6 -mr-6 text-white/5 transform rotate-12 pointer-events-none">
+<span class="material-symbols-outlined text-[180px]">handshake</span>
+</div>
+<div class="relative z-10 flex flex-col md:flex-row gap-8 lg:gap-12 items-start">
+<div class="flex-1">
+<div class="flex items-center gap-3 mb-4">
+<span class="h-px w-8 bg-gold"></span>
+<span class="text-gold font-bold uppercase tracking-widest text-xs" data-i18n="partner.subtitle">Colaboración Estratégica</span>
+</div>
+<h3 class="text-white font-serif text-2xl lg:text-3xl font-bold mb-4">
+                            Maria Blanca Noodt Taquela 
+                            <span class="block text-gray-400 font-sans font-light text-lg mt-1" data-i18n="partner.role">Socia Principal</span>
+</h3>
+<p class="text-gray-300 text-base lg:text-lg leading-relaxed" data-i18n="partner.bio">
+                            La Dra. Noodt Taquela aporta una dimensión crítica a la firma a través de su reconocida expertise en derecho internacional privado y arbitraje. Esta alianza estratégica permite abordar casos de máxima complejidad, combinando el liderazgo de Guillermo Argerich con la profundidad académica y técnica de su socia principal. Juntos garantizan un enfoque jurídico integral y robusto.
+                        </p>
+</div>
+<div class="hidden md:block w-px bg-white/10 self-stretch my-2"></div>
+<div class="flex flex-col gap-5 min-w-[240px] pt-2">
+<div class="flex items-start gap-4 text-gray-300 group hover:text-white transition-colors">
+<div class="bg-gold/10 p-2 rounded-full text-gold group-hover:bg-gold group-hover:text-navy transition-colors">
+<span class="material-symbols-outlined text-xl">school</span>
+</div>
+<div>
+<span class="block text-sm font-bold" data-i18n="partner.cred1.title">Doctora en Derecho</span>
+<span class="text-xs opacity-70" data-i18n="partner.cred1.desc">Universidad de Buenos Aires</span>
+</div>
+</div>
+<div class="flex items-start gap-4 text-gray-300 group hover:text-white transition-colors">
+<div class="bg-gold/10 p-2 rounded-full text-gold group-hover:bg-gold group-hover:text-navy transition-colors">
+<span class="material-symbols-outlined text-xl">gavel</span>
+</div>
+<div>
+<span class="block text-sm font-bold" data-i18n="partner.cred2.title">Árbitro Internacional</span>
+<span class="text-xs opacity-70" data-i18n="partner.cred2.desc">Tribunales Comerciales</span>
+</div>
+</div>
+<div class="flex items-start gap-4 text-gray-300 group hover:text-white transition-colors">
+<div class="bg-gold/10 p-2 rounded-full text-gold group-hover:bg-gold group-hover:text-navy transition-colors">
+<span class="material-symbols-outlined text-xl">menu_book</span>
+</div>
+<div>
+<span class="block text-sm font-bold" data-i18n="partner.cred3.title">Autora Destacada</span>
+<span class="text-xs opacity-70" data-i18n="partner.cred3.desc">+20 Publicaciones Jurídicas</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#0a1016] text-white pt-16 pb-8 border-t border-gray-800">
+<div class="max-w-[1280px] mx-auto px-6 lg:px-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+<!-- Brand -->
+<div class="flex flex-col gap-4">
+<h3 class="font-serif text-xl font-bold text-white">Guillermo Argerich  <span class="text-gold">&amp;</span> Abogados</h3>
+<p class="text-gray-400 text-sm leading-relaxed">
+                            Ocampo 2520, Piso 8 Oficina B<br/>
+                            , Ciudad Autónoma de Buenos Aires<br/>
+                            Argentina
+                        </p>
+</div>
+<!-- Links -->
+<div class="flex flex-col gap-4">
+<h4 class="font-bold text-sm uppercase tracking-wider text-gray-500" data-i18n="footer.about">Nosotros</h4>
+<a class="text-gray-300 hover:text-white hover:pl-1 transition-all text-sm" href="equipo.html" data-i18n="footer.team">Equipo Profesional</a>
+<a class="text-gray-300 hover:text-white hover:pl-1 transition-all text-sm" href="#" data-i18n="footer.careers">Carreras</a>
+<a class="text-gray-300 hover:text-white hover:pl-1 transition-all text-sm" href="#" data-i18n="footer.alliances">Alianzas Globales</a>
+</div>
+<!-- Links -->
+<div class="flex flex-col gap-4">
+<h4 class="font-bold text-sm uppercase tracking-wider text-gray-500" data-i18n="footer.services">Servicios</h4>
+<a class="text-gray-300 hover:text-white hover:pl-1 transition-all text-sm" href="servicios.html" data-i18n="footer.litigation">Litigios Internacionales</a>
+<a class="text-gray-300 hover:text-white hover:pl-1 transition-all text-sm" href="servicios.html" data-i18n="footer.corporate">Derecho Corporativo</a>
+<a class="text-gray-300 hover:text-white hover:pl-1 transition-all text-sm" href="servicios.html" data-i18n="footer.arbitration">Arbitraje</a>
+<a class="text-gray-300 hover:text-white hover:pl-1 transition-all text-sm" href="servicios.html" data-i18n="footer.see_all">Ver todos</a>
+</div>
+<!-- Contact -->
+<div class="flex flex-col gap-4">
+<h4 class="font-bold text-sm uppercase tracking-wider text-gray-500" data-i18n="footer.contact">Contacto</h4>
+<div class="flex items-center gap-3 text-gray-300">
+<span class="material-symbols-outlined text-lg text-primary">call</span>
+<span class="text-sm">+54 11 4321-5555</span>
+</div>
+<div class="flex items-center gap-3 text-gray-300">
+<span class="material-symbols-outlined text-lg text-primary">mail</span>
+<span class="text-sm">contacto@alvarez-asoc.com</span>
+</div>
+<button class="mt-4 border border-gray-600 hover:border-white text-white text-xs font-bold py-2 px-4 rounded transition-colors w-fit" data-i18n="footer.subscribe">
+                            Suscribirse al Newsletter
+                        </button>
+</div>
+</div>
+<div class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-gray-500 text-xs">© 2024 Dr. Álvarez &amp; Asociados. Todos los derechos reservados.</p>
+<div class="flex gap-6">
+<a class="text-gray-500 hover:text-white text-xs" href="#" data-i18n="footer.privacy">Privacidad</a>
+<a class="text-gray-500 hover:text-white text-xs" href="#" data-i18n="footer.terms">Términos</a>
+<a class="text-gray-500 hover:text-white text-xs" href="#" data-i18n="footer.sitemap">Mapa del Sitio</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<!-- Appointment Modal -->
+<div id="appointmentModal" class="fixed inset-0 z-[60] hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <!-- Backdrop -->
+    <div class="absolute inset-0 bg-navy/80 backdrop-blur-sm transition-opacity opacity-0" id="modalBackdrop"></div>
+    
+    <!-- Modal Panel -->
+    <div class="relative z-10 w-full h-full p-4 flex items-center justify-center pointer-events-none">
+        <div class="bg-white dark:bg-[#15202b] w-full max-w-lg rounded-xl shadow-2xl transform transition-all scale-95 opacity-0 translate-y-4 pointer-events-auto border border-gray-100 dark:border-gray-800 flex flex-col max-h-[90vh]" id="modalPanel">
+            <!-- Header -->
+            <div class="px-6 py-5 border-b border-gray-100 dark:border-gray-800 flex items-center justify-between">
+                <div>
+                    <h3 class="text-xl font-serif font-bold text-navy dark:text-white" id="modal-title" data-i18n="modal.title">Agendar Consulta</h3>
+                    <p class="text-sm text-gray-500 mt-1" data-i18n="modal.subtitle">Complete el formulario para coordinar una reunión.</p>
+                </div>
+                <button type="button" class="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300 transition-colors" id="closeModalBtn">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            
+            <!-- Body -->
+            <div class="p-6 overflow-y-auto">
+                <form class="flex flex-col gap-4">
+                    <!-- Name -->
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-navy dark:text-gray-200 mb-1" data-i18n="modal.name">Nombre Completo</label>
+                        <input type="text" id="name" class="w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-navy/50 dark:text-white shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2 px-3" placeholder="Juan Pérez" data-i18n="modal.name.placeholder">
+                    </div>
+                    
+                    <!-- Email & Phone Grid -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-navy dark:text-gray-200 mb-1" data-i18n="modal.email">Email</label>
+                            <input type="email" id="email" class="w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-navy/50 dark:text-white shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2 px-3" placeholder="juan@ejemplo.com" data-i18n="modal.email.placeholder">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-navy dark:text-gray-200 mb-1" data-i18n="modal.phone">Teléfono</label>
+                            <input type="tel" id="phone" class="w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-navy/50 dark:text-white shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2 px-3" placeholder="+54 11 ..." data-i18n="modal.phone.placeholder">
+                        </div>
+                    </div>
+
+                    <!-- Message -->
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-navy dark:text-gray-200 mb-1" data-i18n="modal.message">Mensaje en breve </label>
+                        <textarea id="message" rows="4" class="w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-navy/50 dark:text-white shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2 px-3" placeholder="Describa brevemente su consulta..." data-i18n="modal.message.placeholder"></textarea>
+                    </div>
+
+                    <!-- Submit -->
+                    <button type="submit" class="mt-2 w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-bold text-white bg-primary hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-colors" data-i18n="modal.submit">
+                        Enviar Solicitud
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body></html>

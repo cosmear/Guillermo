@@ -248,29 +248,29 @@
                 
                 <!-- Body -->
                 <div class="p-6 overflow-y-auto">
-                    <form class="flex flex-col gap-4">
+                    <form id="contactForm" class="flex flex-col gap-4">
                         <!-- Name -->
                         <div>
-                            <label for="name" class="block text-sm font-medium text-navy dark:text-gray-200 mb-1" data-i18n="modal.name">Nombre Completo</label>
-                            <input type="text" id="name" class="w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-navy/50 dark:text-white shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2 px-3" placeholder="Juan Pérez" data-i18n="modal.name.placeholder">
+                            <label for="nombre" class="block text-sm font-medium text-navy dark:text-gray-200 mb-1" data-i18n="modal.name">Nombre Completo</label>
+                            <input type="text" id="nombre" name="nombre" class="w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-navy/50 dark:text-white shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2 px-3" placeholder="Juan Pérez" data-i18n="modal.name.placeholder" required>
                         </div>
                         
                         <!-- Email & Phone Grid -->
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div>
                                 <label for="email" class="block text-sm font-medium text-navy dark:text-gray-200 mb-1" data-i18n="modal.email">Email</label>
-                                <input type="email" id="email" class="w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-navy/50 dark:text-white shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2 px-3" placeholder="juan@ejemplo.com" data-i18n="modal.email.placeholder">
+                                <input type="email" id="email" name="email" class="w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-navy/50 dark:text-white shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2 px-3" placeholder="juan@ejemplo.com" data-i18n="modal.email.placeholder" required>
                             </div>
                             <div>
-                                <label for="phone" class="block text-sm font-medium text-navy dark:text-gray-200 mb-1" data-i18n="modal.phone">Teléfono</label>
-                                <input type="tel" id="phone" class="w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-navy/50 dark:text-white shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2 px-3" placeholder="+54 11 ..." data-i18n="modal.phone.placeholder">
+                                <label for="telefono" class="block text-sm font-medium text-navy dark:text-gray-200 mb-1" data-i18n="modal.phone">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" class="w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-navy/50 dark:text-white shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2 px-3" placeholder="+54 11 ..." data-i18n="modal.phone.placeholder" required>
                             </div>
                         </div>
 
                         <!-- Message -->
                         <div>
-                            <label for="message" class="block text-sm font-medium text-navy dark:text-gray-200 mb-1" data-i18n="modal.message">Mensaje en breve </label>
-                            <textarea id="message" rows="4" class="w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-navy/50 dark:text-white shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2 px-3" placeholder="Describa brevemente su consulta..." data-i18n="modal.message.placeholder"></textarea>
+                            <label for="mensaje" class="block text-sm font-medium text-navy dark:text-gray-200 mb-1" data-i18n="modal.message">Mensaje en breve </label>
+                            <textarea id="mensaje" name="mensaje" rows="4" class="w-full rounded-md border-gray-300 dark:border-gray-700 dark:bg-navy/50 dark:text-white shadow-sm focus:border-primary focus:ring-primary sm:text-sm py-2 px-3" placeholder="Describa brevemente su consulta..." data-i18n="modal.message.placeholder" required></textarea>
                         </div>
 
                         <!-- Submit -->

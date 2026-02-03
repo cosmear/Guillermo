@@ -105,6 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
       modal.classList.remove("flex");
     }, 300);
   }
+  window.closeModal = closeModal; // Expose globally for enviarFormulario
 
   openBtns.forEach((btn) => {
     btn.addEventListener("click", (e) => {
@@ -135,4 +136,90 @@ document.addEventListener("DOMContentLoaded", function () {
           closeModal();
       }
   });
+
+  // Connect contact form
+  const form = document.getElementById("contactForm");
+  if (form) {
+      form.addEventListener("submit", enviarFormulario);
+  }
 });
+// Reemplaza toda tu función enviarFormulario con esta
+async function enviarFormulario(evento) {
+  evento.preventDefault();
+
+  // VERIFICA QUE ESTA SEA LA URL DE LA VERSIÓN 11 (O LA MÁS NUEVA)
+  const urlScript = "https://script.google.com/macros/s/AKfycbyE6Oo8mGqafTxSSfg19ynKE1DbymGgb_mW3mhdLkzjIgbH7qQ030b2HPUnpQEsO9TM/exec"; 
+
+  const submitBtn = document.querySelector("#contactForm button[type='submit']");
+  const originalText = submitBtn ? submitBtn.textContent : "Enviar";
+
+  if (submitBtn) {
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Procesando...";
+  }
+
+  const datos = {
+    nombre: document.getElementById("nombre").value,
+    email: document.getElementById("email").value,
+    telefono: document.getElementById("telefono").value,
+    mensaje: document.getElementById("mensaje").value
+  };
+
+  try {
+    const response = await fetch(urlScript, {
+      method: "POST",
+      redirect: "follow", // Importante para seguir la redirección de Google
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8", // "text/plain" evita errores de CORS (OPTIONS)
+      },
+      body: JSON.stringify(datos)
+    });
+
+    // --- AQUÍ ESTÁ EL CAMBIO PARA DEPURAR ---
+    // 1. Obtenemos el texto crudo antes de intentar convertirlo a JSON
+    const textoRespuesta = await response.text();
+    
+    // 2. Intentamos convertir a JSON
+    let result;
+    try {
+        result = JSON.parse(textoRespuesta);
+    } catch (jsonError) {
+        // SI ENTRA ACÁ, GOOGLE DEVOLVIÓ HTML (ERROR) EN VEZ DE JSON
+        console.error("No es JSON:", textoRespuesta);
+        alert("ERROR CRÍTICO: Google devolvió algo que no es JSON.\n\nMira esto:\n" + textoRespuesta.substring(0, 150) + "...");
+        throw new Error("Respuesta no válida del servidor");
+    }
+
+    // 3. Verificamos el status lógico del script
+    if (result.status === "success") {
+      alert("¡Consulta enviada con éxito!");
+      document.getElementById("contactForm").reset();
+      
+      if (typeof closeModal === "function") {
+        closeModal();
+      } else {
+         const modal = document.getElementById("appointmentModal");
+         if(modal) {
+             modal.classList.add("hidden");
+             modal.classList.remove("flex");
+         }
+      }
+    } else {
+      // Si el script de Google capturó un error interno y nos lo mandó
+      alert("Error del servidor: " + result.message);
+      throw new Error(result.message);
+    }
+
+  } catch (error) {
+    console.error("Error final:", error);
+    // Este alert ya no es genérico, te dirá qué pasó si falló el fetch
+    if (!error.message.includes("Respuesta no válida")) {
+        alert("Error de conexión: " + error.message);
+    }
+  } finally {
+    if (submitBtn) {
+      submitBtn.disabled = false;
+      submitBtn.textContent = originalText;
+    }
+  }
+}

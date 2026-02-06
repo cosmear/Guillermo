@@ -2,28 +2,28 @@ window.translations = {
     es: {
         // Navigation
         "nav.team": "Equipo",
-        "nav.areas": "Áreas de Práctica",
+        "nav.areas": "Áreas de práctica",
         "nav.publications": "Publicaciones",
         "nav.contact": "Contacto",
-        "nav.book": "Agendar Consulta",
+        "nav.book": "Agendar consulta",
         
         // Hero Index
-        "hero.subtitle": "DERECHO INTERNACIONAL PRIVADO & CORPORATIVO",
+        "hero.subtitle": "DERECHO INTERNACIONAL PRIVADO & EMPRESARIAL",
         "hero.title": "Experiencia",
         "hero.perspective": "Perspectiva Argentina.",
         "hero.description": "Asesoramiento jurídico internacional de alta complejidad para empresas y particulares. Tradición y vanguardia en el corazón de Buenos Aires.",
-        "hero.cta1": "Nuestras Áreas",
+        "hero.cta1": "Nuestras áreas",
         "hero.cta2": "Contactar",
 
         // Trust Signals
         "trust.years": "Años de",
         "trust.trajectory": "Trayectoria",
-        "trust.global": "Alcance Global",
-        "trust.jurisdictions": "Múltiples Jurisdicciones",
-        "trust.academic": "Excelencia Académica",
-        "trust.formation": "Formación UBA & Internacional",
-        "trust.confidentiality": "Confidencialidad & Ética",
-        "trust.discretion": "Discreción y Rigor Profesional",
+        "trust.global": "Alcance global",
+        "trust.jurisdictions": "Múltiples jurisdicciones",
+        "trust.academic": "Excelencia académica",
+        "trust.formation": "Formación UBA & internacional",
+        "trust.confidentiality": "Confidencialidad & ética",
+        "trust.discretion": "Discreción y rigor profesional",
 
         // Services Section (Index)
         "services.subtitle": "Nuestra Experiencia",

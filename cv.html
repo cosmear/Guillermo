@@ -21,6 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
     <link href="styles.css" rel="stylesheet"/>
     <script src="translations.js"></script>
+    <script src="cv_data.js"></script>
     <script src="script.js"></script>
 </head>
 <body class="bg-background-light dark:bg-background-dark text-charcoal dark:text-gray-100 font-display">
@@ -72,7 +73,7 @@
                 <div class="flex flex-col md:flex-row gap-8 items-center md:items-start">
                     <!-- Profile Photo Placeholder -->
                     <div class="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-gold/30 shadow-2xl overflow-hidden shrink-0">
-                        <div class="w-full h-full bg-gray-600 bg-cover bg-center" style='background-image: url("https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80");'></div>
+                        <div class="w-full h-full bg-gray-600 bg-cover" style='background-position: center 20%; background-image: url("img/18d4c014-e3ae-4710-a88e-65883440da0c.jpg");'></div>
                     </div>
                     
                     <div class="text-center md:text-left flex-1">
@@ -108,173 +109,104 @@
             </div>
         </section>
 
-        <!-- Main Content -->
+                <!-- Main Content -->
         <section class="py-16 bg-white dark:bg-background-dark">
-            <div class="max-w-[1000px] mx-auto px-6 lg:px-10">
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
-                    
-                    <!-- Sidebar (Skills & Education) -->
-                    <aside class="lg:col-span-4 flex flex-col gap-10">
-                        
-                        <!-- Education -->
-                        <div>
-                            <h3 class="text-navy dark:text-white font-serif text-xl font-bold mb-6 flex items-center gap-3">
-                                <span class="bg-primary/10 text-primary p-1.5 rounded">
-                                    <span class="material-symbols-outlined text-xl">school</span>
-                                </span>
-                                Educación
-                            </h3>
-                            <div class="space-y-6">
-                                <div class="relative pl-6 border-l-2 border-gray-100 dark:border-gray-800">
-                                    <div class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-gold"></div>
-                                    <h4 class="font-bold text-navy dark:text-white">Abogado</h4>
-                                    <p class="text-sm text-gray-500 mb-1">Universidad de Buenos Aires (UBA)</p>
-                                    <p class="text-xs text-gray-400">1980 - 1985</p>
-                                </div>
-                                <div class="relative pl-6 border-l-2 border-gray-100 dark:border-gray-800">
-                                    <div class="absolute -left-[5px] top-1.5 w-2.5 h-2.5 rounded-full bg-gray-300 dark:bg-gray-600"></div>
-                                    <h4 class="font-bold text-navy dark:text-white">Especialización en Derecho Internacional</h4>
-                                    <p class="text-sm text-gray-500 mb-1">Universidad Complutense de Madrid</p>
-                                    <p class="text-xs text-gray-400">1987</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Areas of Expertise -->
-                        <div>
-                            <h3 class="text-navy dark:text-white font-serif text-xl font-bold mb-6 flex items-center gap-3">
-                                <span class="bg-primary/10 text-primary p-1.5 rounded">
-                                    <span class="material-symbols-outlined text-xl">verified</span>
-                                </span>
-                                Áreas de Práctica
-                            </h3>
-                            <div class="flex flex-wrap gap-2">
-                                <span class="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-charcoal dark:text-gray-300 text-sm rounded-full font-medium">Arbitraje Comercial</span>
-                                <span class="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-charcoal dark:text-gray-300 text-sm rounded-full font-medium">Contratos Internacionales</span>
-                                <span class="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-charcoal dark:text-gray-300 text-sm rounded-full font-medium">Derecho de Familia</span>
-                                <span class="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-charcoal dark:text-gray-300 text-sm rounded-full font-medium">Litigios Complejos</span>
-                                <span class="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-charcoal dark:text-gray-300 text-sm rounded-full font-medium">Inversiones Extranjeras</span>
-                            </div>
-                        </div>
-
-                        <!-- Memberships -->
-                        <div>
-                             <h3 class="text-navy dark:text-white font-serif text-xl font-bold mb-6 flex items-center gap-3">
-                                <span class="bg-primary/10 text-primary p-1.5 rounded">
-                                    <span class="material-symbols-outlined text-xl">groups</span>
-                                </span>
-                                Membresías
-                            </h3>
-                            <ul class="space-y-3 text-sm text-gray-600 dark:text-gray-400">
-                                <li class="flex items-start gap-2">
-                                    <span class="material-symbols-outlined text-gold text-lg shrink-0">check_circle</span>
-                                    Colegio Público de Abogados de la Capital Federal (CPACF)
-                                </li>
-                                <li class="flex items-start gap-2">
-                                    <span class="material-symbols-outlined text-gold text-lg shrink-0">check_circle</span>
-                                    International Bar Association (IBA)
-                                </li>
-                                <li class="flex items-start gap-2">
-                                    <span class="material-symbols-outlined text-gold text-lg shrink-0">check_circle</span>
-                                    Asociación Argentina de Derecho Internacional
-                                </li>
-                            </ul>
-                        </div>
-
-                    </aside>
-
-                    <!-- Main Column (Experience & Academic) -->
-                     <div class="lg:col-span-8 flex flex-col gap-12">
-                        
-                        <!-- Professional summary -->
-                        <div class="bg-background-light dark:bg-navy/50 p-6 rounded-lg border-l-4 border-gold">
-                            <p class="text-charcoal dark:text-gray-300 leading-relaxed italic">
-                            Soy Guillermo Argerich, especialista en Derecho Internacional, con amplia experiencia en arbitraje internacional. A lo largo de mi carrera, he obtenido gran experiencia en la práctica profesional desde hace 40 años, con sólidos cimientos científicos y académicos.    
-                            </p>
-                        </div>
-
-                        <!-- Experience -->
-                        <div>
-                            <h3 class="text-navy dark:text-white font-serif text-2xl font-bold mb-8 border-b border-gray-200 dark:border-gray-800 pb-3">Experiencia Profesional</h3>
-                            
-                            <div class="space-y-10">
-                                <!-- Job 1 -->
-                                <div class="group">
-                                    <div class="flex justify-between items-start mb-2">
-                                        <div>
-                                            <h4 class="text-lg font-bold text-navy dark:text-white group-hover:text-primary transition-colors">Socio Fundador</h4>
-                                            <p class="text-primary font-medium">Guillermo Argerich & Asociados</p>
-                                        </div>
-                                        <span class="text-sm text-gray-500 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full">1995 - Presente</span>
-                                    </div>
-                                    <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-3">
-                                        Liderazgo de la firma boutique especializada en derecho internacional. Dirección de estrategias en litigios transnacionales y arbitrajes comerciales. Asesoramiento a empresas extranjeras en su instalación en Argentina.
-                                    </p>
-                                    <ul class="list-disc list-outside ml-4 text-sm text-gray-500 space-y-1">
-                                        <li>Representación exitosa en arbitrajes ante la CCI y tribunales ad-hoc.</li>
-                                        <li>Gestión de carteras de inversión extranjera.</li>
-                                        <li>Consultoría para organismos internacionales.</li>
-                                    </ul>
-                                </div>
-
-                                <!-- Job 2 -->
-                                <div class="group">
-                                    <div class="flex justify-between items-start mb-2">
-                                        <div>
-                                            <h4 class="text-lg font-bold text-navy dark:text-white group-hover:text-primary transition-colors">Abogado Senior - Departamento Internacional</h4>
-                                            <p class="text-primary font-medium">Estudio Jurídico Pérez Alati & Benites</p>
-                                        </div>
-                                        <span class="text-sm text-gray-500 bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full">1988 - 1995</span>
-                                    </div>
-                                    <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                                        Responsable del área de contratos internacionales. Participación en procesos de privatización y fusiones y adquisiciones (M&A) con componentes cross-border.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Academic Activity -->
-                        <div>
-                            <h3 class="text-navy dark:text-white font-serif text-2xl font-bold mb-8 border-b border-gray-200 dark:border-gray-800 pb-3">Actividad Académica</h3>
-                            
-                            <div class="space-y-6">
-                                <div>
-                                    <h4 class="text-lg font-bold text-navy dark:text-white">Profesor Titular - Derecho Internacional Privado</h4>
-                                    <p class="text-gray-600 dark:text-gray-400">Facultad de Derecho, Universidad de Buenos Aires (UBA)</p>
-                                    <p class="text-sm text-gray-500 mt-1">2005 - Presente</p>
-                                </div>
-                                 <div>
-                                    <h4 class="text-lg font-bold text-navy dark:text-white">Profesor Invitado</h4>
-                                    <p class="text-gray-600 dark:text-gray-400">Cursos de posgrado en diversas universidades de Latinoamérica y Europa.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Publicaciones -->
-                        <div>
-                             <h3 class="text-navy dark:text-white font-serif text-2xl font-bold mb-8 border-b border-gray-200 dark:border-gray-800 pb-3">Publicaciones Selecciónadas</h3>
-                             <ul class="space-y-4">
-                                 <li class="flex gap-4 items-start">
-                                     <span class="material-symbols-outlined text-gray-400 mt-0.5">article</span>
-                                     <div>
-                                         <h5 class="text-navy dark:text-white font-bold text-sm">"Arbitraje Comercial en el Mercosur: Desafíos y Perspectivas"</h5>
-                                         <p class="text-xs text-gray-500">Revista Jurídica La Ley, 2018.</p>
-                                     </div>
-                                 </li>
-                                 <li class="flex gap-4 items-start">
-                                     <span class="material-symbols-outlined text-gray-400 mt-0.5">menu_book</span>
-                                     <div>
-                                         <h5 class="text-navy dark:text-white font-bold text-sm">"Tratado de Derecho Internacional Privado Argentino" (Co-autor)</h5>
-                                         <p class="text-xs text-gray-500">Editorial Astrea, 2015.</p>
-                                     </div>
-                                 </li>
-                             </ul>
-                        </div>
-
-                     </div>
+            <div class="max-w-[1240px] mx-auto px-6 lg:px-10">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12" id="cv-container">
+                    <!-- Contenido inyectado por JS -->
+                    <div class="col-span-12 text-center py-20 text-gray-500">Cargando la amplia trayectoria del Dr. Argerich...</div>
                 </div>
             </div>
         </section>
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const container = document.getElementById("cv-container");
+                if(!container || typeof cvData === 'undefined') return;
+
+                const createSection = (title, icon, items) => {
+                    if(!items || items.length === 0) return '';
+                    let html = `<div class="mb-10"><h3 class="text-navy dark:text-white font-serif text-2xl font-bold mb-6 border-b border-gray-200 dark:border-gray-800 pb-3 flex items-center gap-3"><span class="bg-primary/10 text-primary p-1.5 rounded"><span class="material-symbols-outlined text-xl">${icon}</span></span>${title}</h3><div class="space-y-6">`;
+                    
+                    items.forEach(item => {
+                        html += `<div class="group relative pl-6 border-l-2 border-primary/30 dark:border-primary/50">
+                            <div class="absolute -left-[6px] top-1.5 w-2.5 h-2.5 rounded-full bg-primary/80 transition-colors"></div>
+                            <div class="flex flex-col mb-1 gap-2">
+                                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
+                                    <h4 class="text-md font-bold text-navy dark:text-white leading-tight flex-1">${item.texto}</h4>
+                                    ${item.anio ? `<span class="text-xs font-bold text-charcoal bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full whitespace-nowrap">${item.anio}</span>` : ''}
+                                    ${item.anios ? `<span class="text-xs font-bold text-charcoal bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full whitespace-nowrap">${item.anios}</span>` : ''}
+                                </div>
+                            </div>
+                        </div>`;
+                    });
+                    
+                    html += `</div></div>`;
+                    return html;
+                };
+
+                const createSidebarList = (title, icon, items) => {
+                     let html = `<div class="mb-10"><h3 class="text-navy dark:text-white font-serif text-xl font-bold mb-6 flex items-center gap-3"><span class="bg-primary/10 text-primary p-1.5 rounded"><span class="material-symbols-outlined text-xl">${icon}</span></span>${title}</h3><ul class="space-y-3 text-sm text-gray-600 dark:text-gray-400">`;
+                     items.forEach(item => {
+                         html += `<li class="flex items-start gap-2"><span class="material-symbols-outlined text-gold text-lg shrink-0">arrow_right</span><span class="leading-relaxed">${item}</span></li>`;
+                     });
+                     html += `</ul></div>`;
+                     return html;
+                };
+
+                const sidebarHTML = `
+                    <aside class="lg:col-span-4 flex flex-col gap-8">
+                        <div class="bg-background-light dark:bg-navy/50 p-6 rounded-lg border-l-4 border-gold mt-2">
+                            <p class="text-charcoal dark:text-gray-300 leading-relaxed italic text-sm">
+                            Abogado Especialista en Derecho Internacional, con amplísima experiencia en negociación, arbitraje comercial, investigación académica y docencia universitaria de grado y posgrado.
+                            </p>
+                        </div>
+                        ${createSidebarList('Idiomas', 'language', cvData.idiomas)}
+                        ${createSection('Educación', 'school', cvData.educacion)}
+                        ${createSection('Membresías Notables', 'military_tech', cvData.distincionesJurado)}
+                    </aside>
+                `;
+
+                const mainHTML = `
+                    <div class="lg:col-span-8 flex flex-col gap-2">
+                        ${createSection('Actividad Privada y Función Pública', 'work', [...cvData.actividadPrivada, ...cvData.funcionEInvestigacion])}
+                        ${createSection('Desempeño como Árbitro', 'gavel', cvData.nombramientosArbitro)}
+                        ${createSection('Docencia de Posgrado y Extranjero', 'history_edu', [...cvData.docenciaPosgrado, ...cvData.docenciaExtranjero])}
+                        ${createSection('Docencia de Grado', 'local_library', cvData.docenciaGrado)}
+                        
+                        <div class="mb-10">
+                            <h3 class="text-navy dark:text-white font-serif text-2xl font-bold mb-6 border-b border-gray-200 dark:border-gray-800 pb-3 flex items-center gap-3"><span class="bg-primary/10 text-primary p-1.5 rounded"><span class="material-symbols-outlined text-xl">menu_book</span></span>Publicaciones</h3>
+                            
+                            <details class="group bg-gray-50 dark:bg-navy/30 rounded-lg p-5 cursor-pointer outline-none mb-4 border border-gray-100 dark:border-gray-800 transition-all hover:bg-gray-100 dark:hover:bg-navy/50">
+                                <summary class="font-bold text-navy dark:text-white outline-none flex justify-between items-center text-lg">
+                                    <div class="flex items-center gap-3"><span class="bg-primary/20 text-primary rounded-full w-8 h-8 flex items-center justify-center font-bold">1</span> Obras Colectivas y Artículos</div> 
+                                    <span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                                </summary>
+                                <div class="mt-5 space-y-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+                                    ${cvData.obrasColectivas.map(o => `<div class="text-sm text-gray-700 dark:text-gray-300 flex items-start gap-3"><span class="font-bold text-primary shrink-0">${o.anio}</span> <span class="leading-relaxed pr-2">${o.texto}</span></div>`).join('')}
+                                </div>
+                            </details>
+
+                            <details class="group bg-gray-50 dark:bg-navy/30 rounded-lg p-5 cursor-pointer outline-none border border-gray-100 dark:border-gray-800 transition-all hover:bg-gray-100 dark:hover:bg-navy/50">
+                                <summary class="font-bold text-navy dark:text-white outline-none flex justify-between items-center text-lg">
+                                    <div class="flex items-center gap-3"><span class="bg-primary/20 text-primary rounded-full w-8 h-8 flex items-center justify-center font-bold">2</span> Libros en Co-autoría</div> 
+                                    <span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                                </summary>
+                                <div class="mt-5 space-y-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+                                    ${cvData.libros.map(o => `<div class="text-sm text-gray-700 dark:text-gray-300 flex items-start gap-3"><span class="font-bold text-primary shrink-0">${o.anio}</span> <span class="leading-relaxed pr-2">${o.texto}</span></div>`).join('')}
+                                </div>
+                            </details>
+                        </div>
+                        
+                        ${createSection('Aportes Originales y Especializados', 'lightbulb', cvData.aportes)}
+                        ${createSection('Conferencias Destacadas', 'mic', cvData.conferencias)}
+                        ${createSection('Cargos Ad-Honorem', 'volunteer_activism', cvData.cargosAdHonorem)}
+                    </div>
+                `;
+
+                container.innerHTML = sidebarHTML + mainHTML;
+            });
+        </script>
 
         <!-- CTA Footer -->
         <section class="bg-navy py-12 border-t border-white/10">

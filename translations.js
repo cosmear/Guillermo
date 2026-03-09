@@ -98,12 +98,12 @@ window.translations = {
         "pubs.newsletter.button": "Suscribirse",
         
         // Article Titles (Static for now)
-        "pubs.art1.title": "Nuevas tendencias en el Arbitraje Comercial Internacional en Latinoamérica.",
-        "pubs.art1.desc": "Un análisis sobre cómo los tribunales arbitrales están adaptando sus procedimientos a la era digital y los desafíos de la ejecución de laudos.",
-        "pubs.art2.title": "Impacto de las nuevas regulaciones aduaneras en el MERCOSUR.",
-        "pubs.art2.desc": "Claves para entender los cambios normativos recientes y su efecto directo en las operaciones de importación y exportación regionales.",
-        "pubs.art3.title": "Desafíos actuales en las sucesiones internacionales.",
-        "pubs.art3.desc": "Cómo planificar y gestionar patrimonios distribuidos en múltiples jurisdicciones para evitar conflictos legales futuros.",
+        "pubs.art1.title": "Un derecho centrado en las personas: La liquidación del régimen económico matrimonial en el Derecho internacional privado",
+        "pubs.art1.desc": "En “Derecho de Familia”, (Dirs. Luis F. Carrillo Pozo y Nayiber Febles Pozo), en coautoría con María Blanca Noodt Taquela y Adriana Verónica Villa, a mi cargo la sección de “La cuestión patrimonial del matrimonio como cuestión arbitrable”, A Coruña, Editorial Colex, 2025, pp. 183-200.",
+        "pubs.art2.title": "Transparencia en el Arbitraje Comercial Internacional: una Aproximación desde el Pluralismo Metodológico del Derecho Internacional Privado",
+        "pubs.art2.desc": "En “Relaciones Privadas Internacionales. Responsabilidad Social y Transparencia” (Dir. Alfonso Ortega Giménez) en coautoría con Juan Jorge, Navarra, Ed. Thomson Reuters Aranzadi, 2023.",
+        "pubs.art3.title": "¿De qué hablamos cuando hablamos de \"internacionalidad\"?",
+        "pubs.art3.desc": "El artículo 3 de la Ley de Arbitraje Comercial Internacional argentina (y más), a propósito del caso \"Corrosión Industrial c. Duro Felguera\".",
 
         // Modal
         "modal.title": "Agendar Consulta",
@@ -234,12 +234,12 @@ window.translations = {
         "pubs.newsletter.button": "Subscribe",
 
         // Article Titles
-        "pubs.art1.title": "New trends in International Commercial Arbitration in Latin America.",
-        "pubs.art1.desc": "An analysis of how arbitral tribunals are adapting their procedures to the digital age and the challenges of award enforcement.",
-        "pubs.art2.title": "Impact of new customs regulations in MERCOSUR.",
-        "pubs.art2.desc": "Keys to understanding recent regulatory changes and their direct effect on regional import and export operations.",
-        "pubs.art3.title": "Current challenges in international successions.",
-        "pubs.art3.desc": "How to plan and manage assets distributed across multiple jurisdictions to avoid future legal conflicts.",
+        "pubs.art1.title": "A People-Centered Law: The Liquidation of Matrimonial Property Regimes in Private International Law",
+        "pubs.art1.desc": "In \"Family Law\", co-authored with María Blanca Noodt Taquela and Adriana Verónica Villa, in charge of the section \"The patrimonial question of marriage as an arbitrable matter\", A Coruña, Editorial Colex, 2025, pp. 183-200.",
+        "pubs.art2.title": "Transparency in International Commercial Arbitration: An Approach from Methodological Pluralism",
+        "pubs.art2.desc": "In \"International Private Relations. Social Responsibility and Transparency\" co-authored with Juan Jorge, Navarra, Ed. Thomson Reuters Aranzadi, 2023.",
+        "pubs.art3.title": "What do we talk about when we talk about \"internationality\"?",
+        "pubs.art3.desc": "Article 3 of the Argentine International Commercial Arbitration Law (and more), regarding the case \"Corrosión Industrial v. Duro Felguera\".",
 
         // Modal
         "modal.title": "Book Consultation",

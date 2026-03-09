@@ -49,9 +49,9 @@ const cvData = {
         { anio: "1992", texto: "Colaborador / Coautor en 'Derecho Internacional Privado. Método de casos. Análisis de fallos. Documentos extranjeros'." }
     ],
     obrasColectivas: [
-        { anio: "2025", texto: "“La liquidación del régimen económico matrimonial en el Derecho internacional privado...”" },
-        { anio: "2025", texto: "“La supresión del arraigo en el Código Civil y Comercial de la Nación...”" },
-        { anio: "2023", texto: "“Transparencia en el Arbitraje Comercial Internacional...”" },
+        { anio: "2025", texto: "“Un derecho centrado en las personas: La liquidación del régimen económico matrimonial en el Derecho internacional privado”, en “Derecho de Familia”, (Dirs. Luis F. Carrillo Pozo y Nayiber Febles Pozo), en coautoría con María Blanca Noodt Taquela y Adriana Verónica Villa, a mi cargo la sección de “La cuestión patrimonial del matrimonio como cuestión arbitrable”, A Coruña, Editorial Colex, 2025, pp. 183-200." },
+        { anio: "2023", texto: "“Transparencia en el Arbitraje Comercial Internacional: una Aproximación desde el Pluralismo Metodológico del Derecho Internacional Privado”, en “Relaciones Privadas Internacionales. Responsabilidad Social y Transparencia” (Dir. Alfonso Ortega Giménez) en coautoría con Juan Jorge, Navarra, Ed. Thomson Reuters Aranzadi, 2023" },
+        { anio: "Reciente", texto: "¿De qué hablamos cuando hablamos de \"internacionalidad\"? El artículo 3 de la Ley de Arbitraje Comercial Internacional argentina (y más), a propósito del caso \"Corrosión Industrial c. Duro Felguera\"" },
         { anio: "2022", texto: "“Cláusulas arbitrales patológicas en Argentina...”" },
         { anio: "2021", texto: "“El impacto de la inteligencia artificial en el mundo del Derecho...”" },
         { anio: "2020", texto: "“Una cuestión de encuadre en la cooperación jurídica internacional...”" },

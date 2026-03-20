@@ -6,7 +6,7 @@ window.translations = {
         "nav.publications": "Publicaciones",
         "nav.contact": "Contacto",
         "nav.book": "Agendar consulta",
-        
+
         // Hero Index
         "hero.subtitle": "DERECHO INTERNACIONAL PRIVADO & EMPRESARIAL",
         "hero.title": "Experiencia",
@@ -50,7 +50,7 @@ window.translations = {
         "partner.cred2.title": "Árbitro Internacional",
         "partner.cred2.desc": "Tribunales Comerciales",
         "partner.cred3.title": "Autora Destacada",
-        "partner.cred3.desc": "+20 Publicaciones Jurídicas",
+        "partner.cred3.desc": "+100 Publicaciones Jurídicas",
 
         // Services Page Specific
         "services.page.title": "Áreas de Práctica",
@@ -96,7 +96,7 @@ window.translations = {
         "pubs.newsletter.desc": "Reciba nuestros análisis mensuales sobre derecho internacional y novedades corporativas directamente en su bandeja de entrada.",
         "pubs.newsletter.placeholder": "Su correo electrónico",
         "pubs.newsletter.button": "Suscribirse",
-        
+
         // Article Titles (Static for now)
         "pubs.art1.title": "Un derecho centrado en las personas: La liquidación del régimen económico matrimonial en el Derecho internacional privado",
         "pubs.art1.desc": "En “Derecho de Familia”, (Dirs. Luis F. Carrillo Pozo y Nayiber Febles Pozo), en coautoría con María Blanca Noodt Taquela y Adriana Verónica Villa, a mi cargo la sección de “La cuestión patrimonial del matrimonio como cuestión arbitrable”, A Coruña, Editorial Colex, 2025, pp. 183-200.",

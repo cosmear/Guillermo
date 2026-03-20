@@ -9,7 +9,7 @@ window.translations = {
 
         // Hero Index
         "hero.subtitle": "DERECHO INTERNACIONAL PRIVADO & EMPRESARIAL",
-        "hero.title": "Experiencia",
+        "hero.title": "Experiencia Global.",
         "hero.perspective": "Perspectiva Argentina.",
         "hero.description": "Asesoramiento jurídico internacional de alta complejidad para empresas y particulares. Tradición y vanguardia en el corazón de Buenos Aires.",
         "hero.cta1": "Nuestras áreas",
@@ -82,7 +82,7 @@ window.translations = {
         "team.member2.role": "Socia Principal",
         "team.member2.bio": "Especialista en Derecho Internacional Privado y Arbitraje Comercial.",
         "team.member3.role": "Asociada Senior",
-        "team.member3.bio": "Focalizada en resolución de disputas y derecho de daños.",
+        "team.member3.bio": "Focalizada en temas de reaseguro y derecho marítimo y aeronáutico.",
         "team.cta.title": "Confíe en nuestra experiencia",
         "team.cta.desc": "Nuestro equipo trabaja de manera integrada para ofrecer soluciones legales sólidas y personalizadas.",
         "team.cta.button": "Agendar una Consulta",
@@ -145,7 +145,7 @@ window.translations = {
 
         // Hero Index
         "hero.subtitle": "PRIVATE INTERNATIONAL & CORPORATE LAW",
-        "hero.title": "Experience",
+        "hero.title": "Global Experience.",
         "hero.perspective": "Argentine Perspective.",
         "hero.description": "High-complexity international legal advice for companies and individuals. Tradition and avant-garde in the heart of Buenos Aires.",
         "hero.cta1": "Our Areas",
@@ -218,7 +218,7 @@ window.translations = {
         "team.member2.role": "Senior Partner",
         "team.member2.bio": "Specialist in Private International Law and Commercial Arbitration.",
         "team.member3.role": "Senior Associate",
-        "team.member3.bio": "Focused on dispute resolution and tort law.",
+        "team.member3.bio": "Focused on reinsurance, maritime, and aeronautical law.",
         "team.cta.title": "Trust our experience",
         "team.cta.desc": "Our team works in an integrated manner to offer solid and personalized legal solutions.",
         "team.cta.button": "Book a Consultation",
